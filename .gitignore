@@ -1,0 +1,54 @@
+# Node modules
+/node_modules
+
+# Compilation output
+/dist
+
+# pnpm deploy output
+/bundle
+
+# Hardhat Build Artifacts
+/artifacts
+
+# Hardhat compilation (v2) support directory
+/cache
+
+# Typechain output
+/types
+
+# Hardhat coverage reports
+/coverage
+
+# TypeChain (modern default output)
+/typechain-types
+
+# Foundry build and broadcast outputs
+/out
+/broadcast
+
+# Hardhat Ignition deployments
+/ignition/deployments
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage artifacts
+coverage.json
+.nyc_output
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
